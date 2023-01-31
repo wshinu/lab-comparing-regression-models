@@ -32,5 +32,12 @@ X_train_new_scaled_df and X_test_new_scaled_df
 
 10. Evaluate the linear model predictions using the previous function on the TRAIN and TEST sets
 11. Now define a function that takes as an input: list of models, X_train and y_train to train several model (with default values) so we can train a lot of them without repeating code. The function must return the list of trained models.
-12. Use the function to train [LinearRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression), [KNeighborsRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html#sklearn-neighbors-kneighborsregressor), and [MLPRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor)
-13. Evaluate the models with the function created earlier in the TRAIN and TEST sets. Which model performs best with the default options? 
+12. Use the function to train the following models (with default settings):
+
+*[LinearRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression)
+
+*[KNeighborsRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html#sklearn-neighbors-kneighborsregressor)
+
+*[MLPRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor)
+
+15. Evaluate the models with the function created earlier in the TRAIN and TEST sets. Which model performs best with the default options? 
